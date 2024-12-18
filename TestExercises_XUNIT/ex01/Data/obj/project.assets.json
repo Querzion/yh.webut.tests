@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Data.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "Data/1.0.0": {
-      "type": "project",
-      "path": "../Data/Data.csproj",
-      "msbuildProject": "../Data/Data.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "Data >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "/home/querzion/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Business/Business.csproj",
-      "projectName": "Business",
-      "projectPath": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Business/Business.csproj",
+      "projectUniqueName": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Data/Data.csproj",
+      "projectName": "Data",
+      "projectPath": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Data/Data.csproj",
       "packagesPath": "/home/querzion/.nuget/packages/",
-      "outputPath": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Business/obj/",
+      "outputPath": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Data/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -51,11 +32,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Data/Data.csproj": {
-              "projectPath": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Data/Data.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

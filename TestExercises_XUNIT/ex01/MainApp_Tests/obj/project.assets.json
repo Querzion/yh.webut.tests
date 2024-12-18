@@ -415,11 +415,24 @@
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Business.dll": {}
         },
         "runtime": {
           "bin/placeholder/Business.dll": {}
+        }
+      },
+      "Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Data.dll": {}
         }
       }
     }
@@ -947,6 +960,11 @@
       "type": "project",
       "path": "../Business/Business.csproj",
       "msbuildProject": "../Business/Business.csproj"
+    },
+    "Data/1.0.0": {
+      "type": "project",
+      "path": "../Data/Data.csproj",
+      "msbuildProject": "../Data/Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
