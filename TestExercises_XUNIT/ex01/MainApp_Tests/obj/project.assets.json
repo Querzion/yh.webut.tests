@@ -434,6 +434,20 @@
         "runtime": {
           "bin/placeholder/Data.dll": {}
         }
+      },
+      "MainApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Business": "1.0.0",
+          "Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MainApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MainApp.dll": {}
+        }
       }
     }
   },
@@ -965,11 +979,17 @@
       "type": "project",
       "path": "../Data/Data.csproj",
       "msbuildProject": "../Data/Data.csproj"
+    },
+    "MainApp/1.0.0": {
+      "type": "project",
+      "path": "../MainApp/MainApp.csproj",
+      "msbuildProject": "../MainApp/MainApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Business >= 1.0.0",
+      "MainApp >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "coverlet.collector >= 6.0.2",
       "xunit >= 2.9.2",
@@ -1004,6 +1024,9 @@
           "projectReferences": {
             "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Business/Business.csproj": {
               "projectPath": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/Business/Business.csproj"
+            },
+            "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/MainApp/MainApp.csproj": {
+              "projectPath": "/home/querzion/RiderProjects/yh.webut.tests/TestExercises_XUNIT/ex01/MainApp/MainApp.csproj"
             }
           }
         }
